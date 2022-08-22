@@ -1,0 +1,17 @@
+#main-img {
+  width: 400px;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #main-img {
+    content: url('assets/logo.png');
+    width: 75px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main-img {
+    content: url('assets/logowithtext.png');
+  }
+}
